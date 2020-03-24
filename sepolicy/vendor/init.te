@@ -19,4 +19,3 @@ allow init firmware_file:filesystem getattr;
 allow init vendor_data_file:file lock;
 allow init hal_audio_default:binder call;
 allow init platform_app:binder call;
-allow init sysfs_usb_supply:file setattr;
