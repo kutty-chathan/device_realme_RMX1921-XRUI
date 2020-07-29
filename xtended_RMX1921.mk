@@ -32,6 +32,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="RMX1921" \
     TARGET_DEVICE="RMX1921"
 
-# Maintainer
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.xtended.maintainer=kuttychathan

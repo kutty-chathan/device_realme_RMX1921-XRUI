@@ -571,6 +571,7 @@
     <!-- Whether Device support LiveDisplay or not -->
     <bool name="config_liveDisplayAvailable">true</bool>
 
+<<<<<<< HEAD
     <!-- SystemInfo Sys Nodes -->
     <string name="config_sysCPUTemp">/sys/class/thermal/thermal_zone3/temp</string>
     <string name="config_sysBatteryTemp">/sys/class/power_supply/battery/temp</string>
@@ -587,4 +588,8 @@
     <!-- Whether device has vooc charging support -->
     <bool name="config_hasVoocCharger">true</bool>
 
+=======
+    <!-- Wired/BT headset focus mode -->
+    <bool name="config_deviceRingtoneFocusMode">true</bool>
+>>>>>>> 9427660... overlay: Enable Wired/BT headset focus mode
 </resources>
