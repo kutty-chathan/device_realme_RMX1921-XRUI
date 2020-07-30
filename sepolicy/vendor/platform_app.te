@@ -10,3 +10,12 @@ allow platform_app sysfs_graphics:dir search;
 allow platform_app sysfs_graphics:file { getattr open read };
 allow platform_app sysfs:file read;
 
+<<<<<<< HEAD
+=======
+get_prop(platform_app, vendor_default_prop);
+get_prop(platform_app, oppo_debug_prop);
+
+allow platform_app sysfs_battery_supply:dir search;
+allow platform_app sysfs_battery_supply:file { getattr open read };
+allow platform_app sysfs_kgsl:file { getattr open read };
+>>>>>>> 762142d... RMX1921: sepolicy: Address battery health & system info denials
