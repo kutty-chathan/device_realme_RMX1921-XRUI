@@ -5,5 +5,5 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/superior_RMX1921.mk
+    $(LOCAL_DIR)/xtended_RMX1921.mk
 

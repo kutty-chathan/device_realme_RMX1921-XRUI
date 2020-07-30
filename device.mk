@@ -133,6 +133,11 @@ PRODUCT_PACKAGES += \
     vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.realme_sdm710 \
     vendor.oppo.hardware.biometrics.fingerprint@2.1
 
+PRODUCT_COPY_FILES += \
+    vendor/xtended/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:vendor/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
+
+export EXTRA_FOD_ANIMATIONS=true
+
 # FM
 PRODUCT_PACKAGES += \
     FM2 \
